@@ -1,0 +1,103 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: jkb
+theme: PaperMod
+
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: jkb
+  description: "articles about some tech stuff"
+  keywords: [Tech, Programming, DevOps, vim]
+  DateFormat: "02.01.2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowShareButtons: false
+
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+
+  label:
+    text: "Home"
+    #icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  profileMode:
+    enabled: false
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Howdy!"
+    Content: |-
+      I'm jkb and here I am, hoping that someone will find some of these articles useful one day.
+      You can expect stuff related to programming, devops and homelab.  
+      I'm not an expert in any way, created this website mostly for learning purposes.
+      I will try my best to explain things clearly and link all useful resources I find along the way.  
+      {{< newline 1 >}}
+      Feedback and questions are more than welcome, so don't be a stranger and message me!  
+      (discord: .ubii)
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/jkbSeven"
+    - name: steam
+      url: "https://steamcommunity.com/id/jkb7/"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 10
+    - identifier: about
+      name: about_me
+      url: /about/
+      weight: 20
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
