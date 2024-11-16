@@ -2,6 +2,8 @@ languageCode: en-us
 title: jkb
 theme: PaperMod
 
+disableKinds: [taxonomy]
+
 pagination:
   disableAliases: false
   pagerSize: 10
@@ -16,11 +18,12 @@ minify:
   disableXML: true
   minifyOutput: true
 
+
 params:
   env: production
   title: jkb
   description: "articles about some tech stuff"
-  keywords: [Tech, Programming, DevOps, vim]
+  keywords: [Tech, Programming, DevOps, vim, blog, jkb7]
   DateFormat: "02.01.2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -43,9 +46,11 @@ params:
     Title: "Howdy!"
     Content: |-
       I'm jkb and here I am, hoping that someone will find some of these articles useful one day.
-      You can expect stuff related to programming, devops and homelab.  
+      You can expect stuff mostly related to tech - programming, devops, homelab.
+      Maybe some product reviews along the way.   
+      {{< newline 1 >}}
       I'm not an expert in any way, created this website mostly for learning purposes.
-      I will try my best to explain things clearly and link all useful resources I find along the way.  
+      I will try my best to explain things clearly and link all useful resources I will find.  
       {{< newline 1 >}}
       Feedback and questions are more than welcome, so don't be a stranger and message me!  
       (discord: .ubii)
