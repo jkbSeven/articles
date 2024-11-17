@@ -149,4 +149,4 @@ Total time spent: ~6.5h
 * figuring out favicons: ~1h
 * research on Cloudflare Pages: ~1h
 
-I think this result is really amazing and the fact that it is securely hosted for free is just incredible.
+I think the outcome is really amazing and the fact that it is securely hosted for free is just incredible.
