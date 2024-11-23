@@ -3,7 +3,7 @@ title: "Build and deploy a Markdown blog in a blink of an eye"
 
 author: "jkb"
 
-date: 2024-11-05T18:55:04+01:00
+date: 2024-11-23T18:38:00+01:00
 
 tags: ["hugo", "papermod", "cloudflare"]
 
@@ -164,10 +164,10 @@ I think its flexibility - you can create a blog that suits your needs and design
 You can also keep track of all your articles with _git_ - amazing!
 
 ### Numbers behind the whole process
-Total time spent: ~6.5h
+Total time spent: **~6.5h**
 * configuring Hugo and PaperMod: ~4.5h
 * figuring out favicons: ~1h
 * research on Cloudflare Pages: ~1h
 
-If this isn't your first encounter to Hugo then this time will drastically go down.
-If I were to build it from the ground up again, it would probably take me around an hour - mindblowing.
+If this isn't your first encounter to Hugo then this time will drastically go down.  
+If I were to build it from the ground up again, it would probably take me around an hour, mindblowing.

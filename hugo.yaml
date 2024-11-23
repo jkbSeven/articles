@@ -45,8 +45,8 @@ params:
   homeInfoParams:
     Title: "Howdy!"
     Content: |-
-      I'm jkb and here I am, hoping that someone will find some of these articles useful one day.
-      You can expect stuff mostly related to tech - programming, devops, homelab.
+      Hopefully you will find some of these articles useful.
+      You can expect tech related stuff - programming, devops, homelab - and a bit of yapping from time to time.
       Maybe some product reviews along the way.   
       {{< newline 1 >}}
       I'm not an expert in any way, created this website mostly for learning purposes.
