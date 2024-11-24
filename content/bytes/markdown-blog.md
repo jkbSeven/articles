@@ -12,7 +12,6 @@ draft: false
 searchHidden: false
 
 ShowReadingTime: true
-ShowPostNavLinks: false
 ShowBreadCrumbs: true
 ShowCodeCopyButtons: false
 ShowWordCount: true
@@ -29,7 +28,7 @@ showtoc: true
 tocopen: false
 
 editPost:
-    URL: "https://github.com/jkbSeven/articles/content"
+    URL: "https://github.com/jkbSeven/articles/blob/main/content/"
     Text: "Suggest changes"
     appendFilePath: true
 ---
