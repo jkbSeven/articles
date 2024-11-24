@@ -5,7 +5,7 @@ theme: PaperMod
 disableKinds: [taxonomy]
 
 pagination:
-  disableAliases: false
+  disableAliases: true
   pagerSize: 10
   path: page
 
@@ -23,12 +23,14 @@ params:
   env: production
   title: jkb
   description: "articles about some tech stuff"
-  keywords: [Tech, Programming, DevOps, vim, blog, jkb7]
+  keywords: [jkb7, jkb, tech, programming, devops, vim, blog, articles, yapping]
   DateFormat: "02.01.2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  mainSections: ["bits", "bytes"]
 
   ShowShareButtons: false
+  ShowPostNavLinks: false
 
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -45,15 +47,19 @@ params:
   homeInfoParams:
     Title: "Howdy!"
     Content: |-
-      Hopefully you will find some of these articles useful.
-      You can expect tech related stuff - programming, devops, homelab - and a bit of yapping from time to time.
-      Maybe some product reviews along the way.   
+      Happy to see you, hopefully you will find something useful here.
+      I'm posting mostly tech related articles - programming, devops, homelab - and a bit of yapping from time to time.
+      Maybe some product reviews along the way.  
+      {{< newline 1 >}}
+      Content is split into two types - **bits** and **bytes**.  
+      Bits are meant for very simple stuff and some tricks.
+      Bytes on the other hand are meant for more complex problems, explained in a more detailed way.  
       {{< newline 1 >}}
       I'm not an expert in any way, created this website mostly for learning purposes.
-      I will try my best to explain things clearly and link all useful resources I will find.  
+      I will try my best to explain things clearly and link all useful resources I can find.  
       {{< newline 1 >}}
       Feedback and questions are more than welcome, so don't be a stranger and message me!  
-      (discord: .ubii)
+      (signal: jkb.73)
 
   socialIcons:
     - name: github

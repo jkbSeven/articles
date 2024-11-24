@@ -1,5 +1,5 @@
 ---
-title: "New post"
+title: "New bit/byte"
 
 author: "jkb"
 
@@ -7,14 +7,13 @@ date: 2024-11-05T18:55:04+01:00
 
 # weight: 1
 
-tags: ["add_tag"]
+tags: ["bit/byte"]
 
 draft: false
 
 searchHidden: false
 
 ShowReadingTime: true
-ShowPostNavLinks: true
 ShowBreadCrumbs: true
 ShowCodeCopyButtons: false
 ShowWordCount: true
@@ -31,7 +30,7 @@ showtoc: false
 tocopen: false
 
 editPost:
-    URL: "https://github.com/jkbSeven/articles/content"
+    URL: "https://github.com/jkbSeven/articles/blob/main/content/"
     Text: "Suggest changes"
     appendFilePath: true # to append file path to Edit link
 ---

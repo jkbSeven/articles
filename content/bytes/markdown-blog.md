@@ -12,7 +12,7 @@ draft: false
 searchHidden: false
 
 ShowReadingTime: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowBreadCrumbs: true
 ShowCodeCopyButtons: false
 ShowWordCount: true
